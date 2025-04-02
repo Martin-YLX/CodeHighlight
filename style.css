@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background: #f0f0f0;
+}
+
+textarea {
+  width: 80%;
+  height: 200px;
+  margin-top: 1rem;
+  font-family: monospace;
+}
+
+.code-box {
+  background: #282c34;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 80%;
+  color: #fff;
+  text-align: left;
+  border-radius: 8px;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+}
