@@ -8,19 +8,21 @@
 </head>
 <body>
   <h1>Code Highlighter Screenshot Tool</h1>
-  
-  <select id="themeSelect"></select>
-  
+
+  <label>语言：</label>
   <select id="langSelect">
-    <option value="javascript">JavaScript</option>
-    <option value="python">Python</option>
+    <option value="c">C</option>
     <option value="cpp">C++</option>
+    <option value="python">Python</option>
   </select>
 
+  <label>主题：</label>
+  <select id="themeSelect"></select>
+
   <textarea id="codeInput" placeholder="Paste your code here..."></textarea>
-  
+
   <div id="preview" class="code-box">
-    <pre><code id="codeBlock" class="language-javascript"></code></pre>
+    <pre><code id="codeBlock"></code></pre>
   </div>
 
   <button id="updateBtn">✨ 高亮预览</button>
